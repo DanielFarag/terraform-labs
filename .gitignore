@@ -1,2 +1,6 @@
 .terraform
 *.pem
+*.sh
+*.secret
+*.zip
+task
