@@ -25,5 +25,3 @@ resource "aws_elasticache_replication_group" "redis" {
 output "redis_endpoint" {
   value = aws_elasticache_replication_group.redis.primary_endpoint_address
 }
-
-#redis-replication-group.spysvj.ng.0001.use1.cache.amazonaws.com

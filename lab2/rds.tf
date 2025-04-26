@@ -26,4 +26,3 @@ resource "aws_db_instance" "default" {
 output "rds_endpoint" {
   value = aws_db_instance.default.endpoint
 }
-# terraform-20250426110654451900000001.ceta8g2iuj0a.us-east-1.rds.amazonaws.com:3306
